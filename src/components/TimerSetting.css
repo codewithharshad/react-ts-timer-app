@@ -1,0 +1,81 @@
+ .timer-settings{
+    position: relative;
+    height: 100vh;
+ }
+ .timer-settings_top{
+    width: 100%;
+    position: relative;
+    top: -20px;
+    overflow-x: hidden;
+    text-align: center;
+ }
+ .timer-settings_top img{
+    width: 120%;
+ }
+.timer-settings_img{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.timer-settings_img img{
+    max-width: 100%;
+}
+.time-inputs{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+margin-top: -30px;
+}
+
+.time-inputs div{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.time-inputs div span{
+    margin-bottom:10px;
+}
+
+.time-inputs input{
+    background: linear-gradient(137deg, #919EFE 0%, #7F5DF9 100%);
+    border-radius: 20px;
+    width: 75px;
+    height: 78px;
+    border: none;
+    text-align: center;
+    font-size: 40px;
+    text-emphasis: center;
+}
+.timer-settings button{
+    background-color: #805CFA;
+    width: 80%;
+    display: block;
+    margin: auto !important;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px !important;
+}
+.time-stick-bottom{
+    position: fixed;
+    width: 450px;
+    bottom: 50px;
+ }
+/* remove input arrow */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

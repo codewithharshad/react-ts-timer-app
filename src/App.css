@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    background-color: #202020;
+    width: 450px;
+    margin: auto;
+  }
+  
+  

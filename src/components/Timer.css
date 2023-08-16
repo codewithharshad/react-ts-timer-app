@@ -1,0 +1,61 @@
+.timer{
+    position: relative;
+    
+}
+.timer_top{
+    width: 100%;
+    position: relative;
+    top: -10px;
+    overflow-x: hidden;
+    text-align: center;
+ }
+ .timer_top img{
+    width: 110%;
+ }
+ .timer_content{
+    background-color: #353535;
+    height: 75vh;
+    position: fixed;
+    width: 450px;
+    bottom: 0 !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+ .timer_content img{
+     max-width: 82%;
+ }
+ .timer_content .container{
+    margin-top: -40px;
+ }
+ .time-left{
+    font-size: 35px;
+    letter-spacing: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .timer-controls{
+     border-radius: 100%;
+     border: 6px solid #805CFA;
+     height: 180px;
+     width: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+ }
+ .timer-controls button{
+    border-radius: 100%;
+    border: 1px solid #805CFA;
+    background-color: #805CFA;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
